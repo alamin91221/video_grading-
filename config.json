@@ -1,6 +1,6 @@
 {
-  "config_version": 19,
-  "last_updated": "2026-10-21T12:47:18.269Z",
+  "config_version": 20,
+  "last_updated": "2026-10-21T12:48:22.982Z",
   "app": {
     "maintenance_mode": false,
     "maintenance_message": "",
@@ -373,6 +373,32 @@
       "is_new": true,
       "is_active": true,
       "order": 23,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_024",
+      "name": "Bleach Bypass",
+      "category": "cinematic",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/bleach_bypass.cube",
+      "thumbnail_url": "",
+      "is_premium": true,
+      "is_new": true,
+      "is_active": true,
+      "order": 24,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_025",
+      "name": "Summer Vibrant",
+      "category": "cinematic",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/summer_vibrant.cube",
+      "thumbnail_url": "",
+      "is_premium": true,
+      "is_new": true,
+      "is_active": true,
+      "order": 25,
       "version": 1,
       "description": "Professional cinematic look with rich contrast and film tones."
     }
