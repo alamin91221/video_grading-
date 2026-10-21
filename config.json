@@ -1,6 +1,6 @@
 {
-  "config_version": 8,
-  "last_updated": "2026-10-21T12:38:55.285Z",
+  "config_version": 9,
+  "last_updated": "2026-10-21T12:39:33.050Z",
   "app": {
     "maintenance_mode": false,
     "maintenance_message": "",
@@ -217,6 +217,19 @@
       "is_new": true,
       "is_active": true,
       "order": 11,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_012",
+      "name": "Cross Process",
+      "category": "cinematic",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/cross_process.cube",
+      "thumbnail_url": "",
+      "is_premium": true,
+      "is_new": true,
+      "is_active": true,
+      "order": 12,
       "version": 1,
       "description": "Professional cinematic look with rich contrast and film tones."
     }
