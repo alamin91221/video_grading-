@@ -1,6 +1,6 @@
 {
-  "config_version": 26,
-  "last_updated": "2026-10-21T13:11:49.827Z",
+  "config_version": 27,
+  "last_updated": "2026-10-21T13:12:50.059Z",
   "app": {
     "maintenance_mode": false,
     "maintenance_message": "",
@@ -490,6 +490,19 @@
       "is_new": true,
       "is_active": true,
       "order": 32,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_033",
+      "name": "Music Neon Cyan",
+      "category": "moody",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/music_neon_cyan.cube",
+      "thumbnail_url": "",
+      "is_premium": true,
+      "is_new": true,
+      "is_active": true,
+      "order": 33,
       "version": 1,
       "description": "Professional cinematic look with rich contrast and film tones."
     }
