@@ -1,0 +1,97 @@
+{
+  "config_version": 1,
+  "last_updated": "2026-10-21T12:00:00Z",
+  "app": {
+    "maintenance_mode": false,
+    "maintenance_message": "",
+    "min_app_version_code": 1,
+    "force_update": false,
+    "update_url": "https://play.google.com/store/apps/details?id=com.nilasharafi.videocolorgrading",
+    "default_lut_id": "lut_001"
+  },
+  "premium": {
+    "enabled": true,
+    "reward_unlock_hours": 48,
+    "rewarded_unlock_enabled": true,
+    "global_free_mode": false
+  },
+  "ads": {
+    "ads_enabled": true,
+    "test_mode": true,
+    "banner": {
+      "enabled": true,
+      "unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "screens": ["home", "lut_list"]
+    },
+    "interstitial": {
+      "enabled": true,
+      "unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "min_interval_seconds": 120,
+      "show_after_export": true,
+      "show_every_n_actions": 3
+    },
+    "rewarded": {
+      "enabled": true,
+      "unit_id": "ca-app-pub-3940256099942544/5224354917"
+    },
+    "rewarded_interstitial": {
+      "enabled": false,
+      "unit_id": "ca-app-pub-3940256099942544/5354046379"
+    },
+    "native": {
+      "enabled": true,
+      "unit_id": "ca-app-pub-3940256099942544/2247696110",
+      "position_every_n_items": 8
+    },
+    "app_open": {
+      "enabled": false,
+      "unit_id": "ca-app-pub-3940256099942544/9257395921",
+      "cooldown_seconds": 300
+    }
+  },
+  "categories": [
+    { "id": "all", "name": "All", "order": 0 },
+    { "id": "cinematic", "name": "Cinematic", "order": 1 },
+    { "id": "vintage", "name": "Vintage", "order": 2 },
+    { "id": "moody", "name": "Moody", "order": 3 },
+    { "id": "bw", "name": "B&W", "order": 4 }
+  ],
+  "luts": [
+    {
+      "id": "lut_001",
+      "name": "Teal Orange Pro",
+      "category": "cinematic",
+      "file_url": "https://raw.githubusercontent.com/nilasharafi/gradex-config/main/luts/teal_orange.cube",
+      "thumbnail_url": "",
+      "is_premium": false,
+      "is_new": true,
+      "is_active": true,
+      "order": 1,
+      "version": 1
+    },
+    {
+      "id": "lut_002",
+      "name": "Cinematic Pro",
+      "category": "cinematic",
+      "file_url": "https://raw.githubusercontent.com/nilasharafi/gradex-config/main/luts/cinematic_pro.cube",
+      "thumbnail_url": "",
+      "is_premium": true,
+      "is_new": true,
+      "is_active": true,
+      "order": 2,
+      "version": 1
+    },
+    {
+      "id": "lut_003",
+      "name": "Vintage Film",
+      "category": "vintage",
+      "file_url": "https://raw.githubusercontent.com/nilasharafi/gradex-config/main/luts/vintage_film.cube",
+      "thumbnail_url": "",
+      "is_premium": false,
+      "is_new": false,
+      "is_active": true,
+      "order": 3,
+      "version": 1
+    }
+  ]
+}
