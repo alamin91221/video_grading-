@@ -1,6 +1,6 @@
 {
-  "config_version": 1,
-  "last_updated": "2026-10-21T12:00:00Z",
+  "config_version": 2,
+  "last_updated": "2026-10-21T12:28:36.735Z",
   "app": {
     "maintenance_mode": false,
     "maintenance_message": "",
@@ -21,7 +21,10 @@
     "banner": {
       "enabled": true,
       "unit_id": "ca-app-pub-3940256099942544/6300978111",
-      "screens": ["home", "lut_list"]
+      "screens": [
+        "home",
+        "lut_list"
+      ]
     },
     "interstitial": {
       "enabled": true,
@@ -50,11 +53,31 @@
     }
   },
   "categories": [
-    { "id": "all", "name": "All", "order": 0 },
-    { "id": "cinematic", "name": "Cinematic", "order": 1 },
-    { "id": "vintage", "name": "Vintage", "order": 2 },
-    { "id": "moody", "name": "Moody", "order": 3 },
-    { "id": "bw", "name": "B&W", "order": 4 }
+    {
+      "id": "all",
+      "name": "All",
+      "order": 0
+    },
+    {
+      "id": "cinematic",
+      "name": "Cinematic",
+      "order": 1
+    },
+    {
+      "id": "vintage",
+      "name": "Vintage",
+      "order": 2
+    },
+    {
+      "id": "moody",
+      "name": "Moody",
+      "order": 3
+    },
+    {
+      "id": "bw",
+      "name": "B&W",
+      "order": 4
+    }
   ],
   "luts": [
     {
@@ -92,6 +115,19 @@
       "is_active": true,
       "order": 3,
       "version": 1
+    },
+    {
+      "id": "lut_004",
+      "name": "Clean_Natural",
+      "category": "moody",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/clean_natural.cube",
+      "thumbnail_url": "",
+      "is_premium": false,
+      "is_new": true,
+      "is_active": true,
+      "order": 4,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
     }
   ]
 }
