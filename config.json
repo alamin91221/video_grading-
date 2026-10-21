@@ -1,6 +1,6 @@
 {
-  "config_version": 18,
-  "last_updated": "2026-10-21T12:46:20.072Z",
+  "config_version": 19,
+  "last_updated": "2026-10-21T12:47:18.269Z",
   "app": {
     "maintenance_mode": false,
     "maintenance_message": "",
@@ -347,6 +347,32 @@
       "is_new": true,
       "is_active": true,
       "order": 21,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_022",
+      "name": "Warm Golden Hour",
+      "category": "moody",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/warm_golden_hour.cube",
+      "thumbnail_url": "",
+      "is_premium": false,
+      "is_new": true,
+      "is_active": true,
+      "order": 22,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_023",
+      "name": "Cool Blue Mood",
+      "category": "moody",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/cool_blue_mood.cube",
+      "thumbnail_url": "",
+      "is_premium": false,
+      "is_new": true,
+      "is_active": true,
+      "order": 23,
       "version": 1,
       "description": "Professional cinematic look with rich contrast and film tones."
     }
