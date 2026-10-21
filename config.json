@@ -1,6 +1,6 @@
 {
-  "config_version": 17,
-  "last_updated": "2026-10-21T12:45:25.572Z",
+  "config_version": 18,
+  "last_updated": "2026-10-21T12:46:20.072Z",
   "app": {
     "maintenance_mode": false,
     "maintenance_message": "",
@@ -334,6 +334,19 @@
       "is_new": true,
       "is_active": true,
       "order": 20,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_021",
+      "name": "Cinematic Teal Orange",
+      "category": "cinematic",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/cinematic_teal_orange.cube",
+      "thumbnail_url": "",
+      "is_premium": false,
+      "is_new": true,
+      "is_active": true,
+      "order": 21,
       "version": 1,
       "description": "Professional cinematic look with rich contrast and film tones."
     }
