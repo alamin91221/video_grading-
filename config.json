@@ -1,6 +1,6 @@
 {
-  "config_version": 14,
-  "last_updated": "2026-10-21T12:42:57.632Z",
+  "config_version": 15,
+  "last_updated": "2026-10-21T12:43:30.292Z",
   "app": {
     "maintenance_mode": false,
     "maintenance_message": "",
@@ -295,6 +295,19 @@
       "is_new": true,
       "is_active": true,
       "order": 17,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_018",
+      "name": "Food Appetizing",
+      "category": "moody",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/food_appetizing.cube",
+      "thumbnail_url": "",
+      "is_premium": true,
+      "is_new": true,
+      "is_active": true,
+      "order": 18,
       "version": 1,
       "description": "Professional cinematic look with rich contrast and film tones."
     }
