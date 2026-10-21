@@ -1,6 +1,6 @@
 {
-  "config_version": 10,
-  "last_updated": "2026-10-21T12:40:20.626Z",
+  "config_version": 11,
+  "last_updated": "2026-10-21T12:41:02.973Z",
   "app": {
     "maintenance_mode": false,
     "maintenance_message": "",
@@ -243,6 +243,19 @@
       "is_new": true,
       "is_active": true,
       "order": 13,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_014",
+      "name": "Desert Dust",
+      "category": "vintage",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/desert_dust.cube",
+      "thumbnail_url": "",
+      "is_premium": false,
+      "is_new": true,
+      "is_active": true,
+      "order": 14,
       "version": 1,
       "description": "Professional cinematic look with rich contrast and film tones."
     }
