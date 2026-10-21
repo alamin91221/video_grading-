@@ -1,6 +1,6 @@
 {
-  "config_version": 12,
-  "last_updated": "2026-10-21T12:41:40.414Z",
+  "config_version": 13,
+  "last_updated": "2026-10-21T12:42:14.297Z",
   "app": {
     "maintenance_mode": false,
     "maintenance_message": "",
@@ -269,6 +269,19 @@
       "is_new": true,
       "is_active": true,
       "order": 15,
+      "version": 1,
+      "description": "Professional cinematic look with rich contrast and film tones."
+    },
+    {
+      "id": "lut_016",
+      "name": "Analog_800T",
+      "category": "moody",
+      "file_url": "https://raw.githubusercontent.com/alamin91221/video_grading-/main/luts/analog_800t.cube",
+      "thumbnail_url": "",
+      "is_premium": true,
+      "is_new": true,
+      "is_active": true,
+      "order": 16,
       "version": 1,
       "description": "Professional cinematic look with rich contrast and film tones."
     }
